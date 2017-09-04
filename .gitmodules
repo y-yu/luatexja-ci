@@ -1,0 +1,3 @@
+[submodule "luatexja"]
+	path = luatexja
+	url = git://git.osdn.net/gitroot/luatex-ja/luatexja.git

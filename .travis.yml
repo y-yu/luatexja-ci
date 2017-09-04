@@ -1,0 +1,14 @@
+os:
+  - osx
+  - linux
+dist: trusty
+language: generic
+sudo: false
+install:
+  - . ./install.sh
+script:
+  - ./polling.sh
+  - ./test.sh
+env:
+  global:
+    secure: Gi8S+x5sWqOBnltwMUQ78mxFv0PIF+Sw2TeTDnlGlcdqkBjGtvIRL0ZalXhMNX3snW8PPHIUwh7G1c4RufCuWKe7MAz8Zh8Z5xdoLiRPlY+rpYndv3ChRdW10jUy3M9qd2OCHHkOE2KHNdCqTYHus0Lnu6BzGK0/dbRkz1HTpEG2LrBgsmnBgf/HzATFQ+4tbR8nQ55RRO0GC57Y7r+JTLaKNc++ZtP/h0XAJmjUT0Ydx91VPboaa0jylBqt1Cz/uho3BScs3i4yGddnOKbdC1oVvrca+LOCqnl+iVDfUloYLSgi2+XXRxLIPb+noUcivg1NCv5/AQWjLN6mJ52c9HkdBaPU1mm4GAnShHN5cA2p1yKf2tgpm/TZlWJpE3AR2g3vwvl0YZUdBrZCvGVNyCNc5altJfsHA9QOFAMnJNGreWVGu6VmVGTyfb/E7Fp2pc1mPpXLpMth9YCF9QsvJzSXSpXw91qlI7s15Jzs90QiSP9wRs6YPSXaySIU2NHeAfQUSyVBwmJiUqnQ0uANoPOuiRLd0hr8YaTcHyrcMc2KXgyB+k3TUI63nvBO0tghf3A8KKfev0Cl78oQWqkFEqm+wr3m9O3O7qUXdRQGDHLK/zEA1FNynFBZEul0cDx38Ocq+M1NN10aMn0L3f7wKZFjKtaeKT7s5amkM+Hdtrk=
