@@ -10,6 +10,9 @@ if [[ "${TRAVIS_EVENT_TYPE}" == 'cron' && "${TRAVIS_OS_NAME}" == "linux" && "${T
   
   git config --global user.email "yyu@mental.poker"
   git config --global user.name "Yoshimura Yuu"
+
+  git remote rm origin
+  git remote add origin git@github.com:y-yu/luatexja-ci.git
     
   cd luatexja
   git pull origin master
